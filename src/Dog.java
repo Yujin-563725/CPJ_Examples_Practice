@@ -1,8 +1,8 @@
 /**
- * Represents a basic dog.
+ * Represents a basic dog that can fetch and speak.
  */
 public class Dog {
-    private String speech = "Wolf!";
+    private String speech = "Woof!";
     private String name = "Bark Choy";
 
     /**
@@ -10,7 +10,7 @@ public class Dog {
      * @param thing what was thrown to the dog
      * @return the object picked up by the dog
      */
-    public Object fetch(Object thing) {
+    public Object fetch(Object thing){
         return thing;
     }
 
